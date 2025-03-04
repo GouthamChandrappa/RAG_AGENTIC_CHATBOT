@@ -3,4 +3,4 @@ myenv
 .env
 .DS_Store
 README-UI.md\
-data
+data/
