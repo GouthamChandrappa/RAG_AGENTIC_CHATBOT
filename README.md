@@ -42,12 +42,8 @@ project/
 │   └── crew/
 │       ├── __init__.py
 │       └── agentic_rag_crew.py
-└── tests/
-    ├── __init__.py
-    ├── test_chunking.py
-    ├── test_retrieval.py
-    └── test_evaluation.py
-    ```
+```
+    
 
 ## Installation
 
