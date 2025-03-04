@@ -15,7 +15,7 @@ import config
 
 # Page setup - MUST BE THE FIRST STREAMLIT COMMAND
 st.set_page_config(
-    page_title="Aparavi AI - Agentic Document Intelligence",
+    page_title=" Q/A AI - Agentic Document Intelligence",
     page_icon="📚",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -308,7 +308,7 @@ with st.sidebar:
     st.markdown("<div class='sidebar-section'>", unsafe_allow_html=True)
     st.markdown("## About")
     st.markdown("""
-    **Aparavi AI** is an agentic document intelligence system that uses Retrieval-Augmented Generation (RAG) to answer questions based on your documents.
+    ** Q/A AI** is an agentic document intelligence system that uses Retrieval-Augmented Generation (RAG) to answer questions based on your documents.
     
     **Version:** 1.0.0
     """)
@@ -316,7 +316,7 @@ with st.sidebar:
 
 # Main area
 st.markdown("<div class='main-content'>", unsafe_allow_html=True)
-st.markdown("<h1 class='main-header'>Aparavi AI: Agentic Document Intelligence</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='main-header'>Q/A AI: Agentic Document Intelligence</h1>", unsafe_allow_html=True)
 st.markdown("<p class='sub-header'>Upload a PDF, ask questions, and get accurate answers based on document content.</p>", unsafe_allow_html=True)
 
 # Knowledge base refresh trigger
@@ -533,6 +533,6 @@ st.markdown("</div>", unsafe_allow_html=True)
 # Footer
 st.markdown("""
 <div style="text-align: center; color: #6c757d; font-size: 0.8rem; margin-top: 20px;">
-    Aparavi AI - Powered by Retrieval-Augmented Generation © 2024
+    Q/A - Powered by Retrieval-Augmented Generation © 2024
 </div>
 """, unsafe_allow_html=True)

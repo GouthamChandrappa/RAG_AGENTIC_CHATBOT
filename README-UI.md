@@ -1,13 +1,12 @@
-# Aparavi AI Assistant UI
+# Q/A AI Assistant
 
-This Streamlit application provides a user-friendly interface for the Agentic RAG Chatbot, branded with Aparavi's colors and styling.
+This Streamlit application provides a user-friendly interface for the Agentic RAG Chatbot.
 
 ## Features
 
 - Modern chat interface similar to ChatGPT
 - Document upload and indexing functionality
 - Performance metrics tracking
-- Aparavi-themed styling
 - Responsive design
 
 ## Setup Instructions
