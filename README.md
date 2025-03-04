@@ -5,7 +5,7 @@ This repository contains an implementation of an agentic Retrieval-Augmented Gen
 
 [qaai.webm](https://github.com/user-attachments/assets/520fe4e7-3a86-44f9-be36-b8361d047a0a)
 
-
+![Agentic RAG System Architecture](system_arch_RAG.png)
 
 ## Features
 
