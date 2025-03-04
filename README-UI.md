@@ -49,7 +49,6 @@ streamlit run app.py
 
 The interface includes:
 
-- Aparavi branding and color scheme
 - Sidebar for document management
 - Main chat panel with message history
 - Performance metrics dashboard
