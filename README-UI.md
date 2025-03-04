@@ -18,7 +18,7 @@ This Streamlit application provides a user-friendly interface for the Agentic RA
 
 1. Ensure your OpenAI API key is set in the .env file:
 
-```
+```bash
 OPENAI_API_KEY=your_api_key_here
 ```
 
