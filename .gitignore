@@ -2,4 +2,5 @@ myenv
 *.pyc
 .env
 .DS_Store
-README-UI.md
+README-UI.md\
+data
