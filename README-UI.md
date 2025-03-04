@@ -12,9 +12,12 @@ This Streamlit application provides a user-friendly interface for the Agentic RA
 
 ## Setup Instructions
 
-1. Install the required dependencies:
+1. ensure you have the required dependencies:
 
 ```bash
+ pip install -r requirements.txt
+ ```
+
 
 1. Ensure your OpenAI API key is set in the .env file:
 
