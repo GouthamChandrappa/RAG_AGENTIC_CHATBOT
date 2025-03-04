@@ -4,3 +4,7 @@ myenv
 .DS_Store
 README-UI.md\
 data/*
+results.json
+.deepeval_telemetry.txt
+!data/.gitkeep
+
