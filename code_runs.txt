@@ -1,0 +1,14 @@
+# Install dependencies
+pip install -r requirements.txt
+
+# Index documents
+python main.py --index data/sample_docs/
+
+# Process a query
+python main.py --query "What is the main objective of the challenge?"
+
+# Interactive mode
+python main.py --interactive
+
+# Generate evaluation report
+python main.py --eval
