@@ -15,28 +15,26 @@ This Streamlit application provides a user-friendly interface for the Agentic RA
 1. Install the required dependencies:
 
 ```bash
-pip install -r requirements-streamlit.txt
-```
 
-2. Ensure your OpenAI API key is set in the .env file:
+1. Ensure your OpenAI API key is set in the .env file:
 
 ```
 OPENAI_API_KEY=your_api_key_here
 ```
 
-3. Make sure Qdrant is running (if using Docker):
+2. Make sure Qdrant is running (if using Docker):
 
 ```bash
 docker run -d -p 6333:6333 qdrant/qdrant
 ```
 
-4. Run the Streamlit app:
+3. Run the Streamlit app:
 
 ```bash
 streamlit run app.py
 ```
 
-5. Access the application in your browser at http://localhost:8501
+4. Access the application in your browser at http://localhost:8501
 
 ## Using the Interface
 
