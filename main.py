@@ -76,7 +76,7 @@ def main():
             logger.error(f"Path not found: {path}")
             return
     
-    # Process a single query if specified
+    
     # Process a single query if specified
     if args.query:
         logger.info(f"Processing query: {args.query}")

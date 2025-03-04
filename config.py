@@ -21,7 +21,7 @@ COLLECTION_NAME = "rag_docs"
 # Chunking Configuration
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
-SEMANTIC_CHUNKING = False
+SEMANTIC_CHUNKING = True
 
 # Evaluation Configuration
 EVAL_METRICS = [
