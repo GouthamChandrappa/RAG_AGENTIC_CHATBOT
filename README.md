@@ -1,20 +1,11 @@
 # Agentic RAG Chatbot
 
-This repository contains an implementation of an agentic Retrieval-Augmented Generation (RAG) chatbot using CrewAI for agent orchestration, Chonkie for semantic document chunking, and DeepEval for evaluation.
+This repository contains an implementation of an agentic Retrieval-Augmented Generation (RAG) chatbot using CrewAI for agent orchestration, Chonkie for semantic document chunking, and DeepEval for evaluatio
 
-## Why CrewAI vs LangChain
 
-For this agentic RAG implementation, I chose CrewAI over LangChain for several key reasons:
+[qaai.webm](https://github.com/user-attachments/assets/520fe4e7-3a86-44f9-be36-b8361d047a0a)
 
-1. **Agent-Centric Architecture**: CrewAI is specifically designed for multi-agent orchestration with specialized roles and collaborative tasks, which better aligns with the agentic behavior requirements in this challenge.
 
-2. **Task-Based Workflow**: CrewAI's task-based workflow creates a more structured approach to the retrieval-generation-evaluation pipeline compared to LangChain's chain-based structure.
-
-3. **Dynamic Task Delegation**: CrewAI's support for agents to dynamically decide whether to retrieve more context, refine prompts, or request clarifications matches the specific agentic behavior requirements in the challenge.
-
-4. **Agent Communication**: CrewAI's built-in support for agent communication enables more sophisticated reasoning about the RAG process between the retrieval, generation, and evaluation phases.
-
-While LangChain offers excellent RAG components and wider tool integrations, CrewAI's focus on specialized agents with clearly defined roles and collaborative abilities makes it the better choice for this specific agentic challenge.
 
 ## Features
 
