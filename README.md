@@ -83,7 +83,7 @@ streamlit run app.py
 
 ```bash
 # Process a single query
-python main.py --query "What is the main objective of the agentic RAG challenge?"
+python main.py --query "YOUR_QUERY"
 
 # Run in interactive mode
 python main.py --interactive
