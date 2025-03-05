@@ -57,7 +57,10 @@ pip install -r requirements.txt
 
 # Set up environment variables
 export OPENAI_API_KEY=your_openai_api_key
-# Optionally set QDRANT_URL if not using local instance
+
+#Make sure Qdrant is running (if using Docker):
+docker run -d -p 6333:6333 qdrant/qdrant
+
 # export QDRANT_URL=your_qdrant_url
 ```
 
@@ -71,7 +74,11 @@ python main.py --index data/sample_docs/document.pdf
 
 # Index a directory of documents
 python main.py --index data/sample_docs/
+
+#To run and use this repository directly, you can use the following command:
+streamlit run app.py
 ```
+
 
 ### Process Queries
 
