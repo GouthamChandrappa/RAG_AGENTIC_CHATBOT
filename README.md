@@ -74,7 +74,7 @@ python main.py --index data/sample_docs/document.pdf
 # Index a directory of documents
 python main.py --index data/sample_docs/
 
-#To run and use this repository directly, you can use the following command:
+#To run and use this AGENTIC RAG CHAT ASSISTANT, you can use the following command:
 streamlit run app.py
 ```
 
