@@ -49,8 +49,8 @@ project/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/agentic-rag-chatbot.git
-cd agentic-rag-chatbot
+gh repo clone GouthamChandrappa/RAG_AGENTIC_CHATBOT
+cd RAG_AGENTIC_CHATBOT
 
 # Install dependencies
 pip install -r requirements.txt
@@ -68,18 +68,21 @@ docker run -d -p 6333:6333 qdrant/qdrant
 ### Index Documents
 
 ```bash
+#create a data folder in the root directory (provided command for linux based systems)
+touch data/sample_docs/YOUR_DOCUMENT.pdf 
+
 # Index a single document
 python main.py --index data/sample_docs/document.pdf
 
 # Index a directory of documents
 python main.py --index data/sample_docs/
 
-#To run and use this AGENTIC RAG CHAT ASSISTANT, you can use the following command:
+# OR you can directly run and use this AGENTIC RAG CHAT ASSISTANT, use the following command:
 streamlit run app.py
 ```
 
 
-### Process Queries
+### Process Queries indivually on the system:
 
 ```bash
 # Process a single query
