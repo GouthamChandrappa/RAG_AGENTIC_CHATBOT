@@ -61,7 +61,6 @@ export OPENAI_API_KEY=your_openai_api_key
 #Make sure Qdrant is running (if using Docker):
 docker run -d -p 6333:6333 qdrant/qdrant
 
-# export QDRANT_URL=your_qdrant_url
 ```
 
 ## Usage
